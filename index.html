@@ -208,16 +208,16 @@
 
         // Function to add a marker at a specific point on the map
         const instructions = [
-            { title: "Current Time", info: " " },
-            { title: "Address of Origin", info: " " },
-            { title: "Address of Destination", info: " " },
+            { title: "Current Time", info: "11:46 AM" },
+            { title: "Address of Origin", info: "4037 MS-18, Port Gibson, MS 39150" },
+            { title: "Address of Destination", info: "364 Doctor M.L.K. Jr Dr, Canton, MS 39046" },
             { title: "Distance of Destination", info: "0" },
             { title: "Estimated Time to Destination", info: "0" },
-            { title: "State of Charge of Battery", info: "0 Charge" },
-            { title: "Range of Current Battery", info: "0 Minutes" },
-            { title: "Estimated Drive-distance with Current Charge", info: "0 Miles" },
+            { title: "State of Charge of Battery", info: "38% Charge" },
+            { title: "Range of Current Battery", info: "114 Minutes" },
+            { title: "Estimated Drive-distance with Current Charge", info: "86 Miles" },
             { title: "Type of Chargin Socket", info: "J1772" },
-            { title: "kW Needed to Fully Charge Your Car", info: "0 kW" }
+            { title: "kW Needed to Fully Charge Your Car", info: "37.2 kW" }
         ];
 
 
@@ -242,13 +242,13 @@
                         { type: 'NACS', value: '2' }
                     ],    
                 chargeTime: [
-                        { type: 'NACS', value: '' }
+                        { type: 'NACS', value: '172' }
                     ],
                 socketAvalability: [
                         { type: 'NACS', value: '2 available' }
                     ],
 
-                energySource: 'Energy Breakdown: 0% Grid, 0% Renewable',
+                energySource: 'Energy Breakdown: 87% Grid, 13% Renewable',
 
                 chargingFee: '$15.00',
                 chargingFeeRate: 'for any length of charging',
@@ -259,7 +259,7 @@
                 grocery: 'Yes <br><br> There is a grocery store in walking distance... 0 mile',
                 sportsClothes: 'Yes <br><br> There is a sports or clothing store in walking distance... 0 miles',
                 
-                rating: '★ ★ ★ ✰ ✰',
+                rating: '',
                 ratingNum: ''
             },
             {
@@ -283,15 +283,15 @@
                         { type: 'NACS', value: '2' }
                     ],
                 chargeTime: [
-                        { type: 'J1772', value: '' },
-                        { type: 'NACS', value: '' }
+                        { type: 'J1772', value: 'Unknown' },
+                        { type: 'NACS', value: '16' }
                     ],
                 socketAvalability: [
                         { type: 'J1772', value: '2 available' },
                         { type: 'NACS', value: '2 available' }
                     ],        
 
-                energySource: 'Energy Breakdown: 0% Grid, 0% Renewable',
+                energySource: 'Energy Breakdown: 40% Grid, 60% Renewable',
 
                 chargingFee: '$0.00',
                 chargingFeeRate: 'per kWh',
@@ -303,7 +303,7 @@
                 grocery: 'Yes <br><br> There is a grocery store in walking distance... 0 miles',
                 sportsClothes: 'Yes <br><br> There is a sports or clothing store in walking distance... 0 miles',
                 
-                rating: '★ ★ ★ ✰ ✰',  
+                rating: '',  
                 ratingNum: '0'
             }
         ];
@@ -885,7 +885,7 @@
                         },
                         geometry: {
                             type: 'Point',
-                            coordinates: [-90.04360419921238,32.617693803977176]
+                            coordinates: [-90.94570610879778,31.968519302596917]
                         }
                     }
                 ]
@@ -904,7 +904,7 @@
                         },
                         geometry: {
                             type: 'Point',
-                            coordinates: [-90.94570610879778,31.968519302596917]
+                            coordinates: [-90.04360419921238,32.617693803977176]
                         }
                     }
                 ]
